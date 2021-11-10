@@ -1,0 +1,135 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conteúdo sobre a Segurança Pública no estado do Maranhão (MA) - Brasil">
+    <meta name="keywords" content="Maranhão, site, segurança pública">
+    <meta name="robots" content="index, follow">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,500&family=Nunito:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="{% static 'img/logo.png' %}" type="image/x-icon">
+
+    <title> SEGURANÇA PÚBLICA - MARANHÃO </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, #b06ab3, #4568dc);">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> 
+                <img src="{% static 'img/logo.png' %}" alt="" width="64" height="60">   
+                Segurança Pública - Maranhão </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"> INÍCIO </a>
+                  </li>         
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Órgãos Responsáveis
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="penal.html"> POLÍCIA PENAL </a></li>
+                      <li><a class="dropdown-item" href="guarda.html"> GUARDA MUNICIPAL </a></li>
+                      <li><a class="dropdown-item" href="bombeiros.html"> CORPO DE BOMBEIROS </a></li>
+                      <li><a class="dropdown-item" href="militar.html"> POLÍCIA MILITAR </a></li>
+                      <li><a class="dropdown-item" href="civil.html"> POLÍCIA CIVIL  </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobre.html"> Quem Somos?</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 my-3">
+            <h2 id="topo" class=" text-center "> POLÍCIA CIVIL </h2>
+            <p style="color: purple" class="text-center"> Você sabe como atua a polícia civil?</p>
+
+             <p >Organização Policial </p>
+             
+             <p> <b>Delegacia de Polícia:</b> A Polícia Civil do Estado do Maranhão, dirigida pelo Delegado Geral da Polícia Civil, desenvolve os serviços públicos da sua competência, basicamente, através das delegacias policiais. As delegacias distribuídas pelo território estadual, são, nas suas circunscrições, o centro das investigações e dos demais atos de polícia judiciária e pontos de atendimento e proteção à população. São 19 delegacias na Capital e 19 regionais no Interior do estado.
+            </p>
+         
+            <img src="{% static 'img/policiacivil.jpg' %}" alt="policiais civis" id="img2">
+
+            <p> <strong> Padronização do Procedimento </strong></p>
+            <hr>
+            <p>
+              Existe um padrão organizativo e de rotinas, desenvolvido desde a criação da Polícia Civil, em 1808, quando da instituição da Intendência Geral de Polícia da Corte e do Estado do Brasil, logo disseminado para todo o país. Reformas posteriores no Império e na República mantiveram um modelo nacional. Desde 1871 as investigações policiais são formalizadas no Inquérito Policial, previsto no Código de Processo Penal.
+            </p>
+
+            <p> <strong> Investigação Especializada  </strong></p>
+            <hr>
+            <p>
+              Em apoio as delegacias distritais, surgiram as delegacias especializadas decorrentes do desenvolvimento da atividade criminosa que também se especializou, organizou-se em quadrilhas e estendeu as suas ações por largas faixas territoriais. As principais delegacias especializadas reprimem o tráfico de entorpecentes, o roubo e o furto, inclusive de automóveis, as fraudes ou defraudações, sendo certa a inclusão das delegacias de homicídios dentre essas unidades pela importância do bem jurídico protegido que é a vida humana. A Polícia Civil do Maranhão conta com as seguintes delegacias especializadas:
+            </p>
+            
+            <p>
+              Delegacia do Adolescente InfratorDelegacia de Roubos e FurtosDRCASP – Coisa PúblicaDelegacia de Roubos e Furtos de VeículosDelegacia Especial da MulherDelegacia de Acidentes de TrânsitoDelegacia de CostumesDelegacia de HomicídiosDelegacia de DefraudaçõesDelegacia de Polícia Interestadual - POLINTERDelegacia do TurismoDelegacia de Proteção à Criança e ao AdolescenteDelegacia do ConsumidorDelegacia do IdosoDelegacia do Meio AmbienteDelegacia Fazendária
+            </p>
+
+            <p> <strong> Constatação Específica </strong></p>
+            <hr>
+            <p>
+              As perícias criminalística e médico-legal integram as atividades da polícia judiciária por força do perfeito entrosamento que deve haver entre o investigador policial e o perito para a elucidação dos crimes. No Estado do Maranhão o segmento técnico-científico é representado por três órgãos: Instituto Médico-Legal, Instituto de Criminalística e Instituto de Identificação
+            </p>
+
+            <hr>
+            <p>Conheça a polícia penal:
+              <a href="penal.html">Clique aqui!</a></p>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Libras -->
+     <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <footer>
+      <div class="rodape my-3">
+        <h5> Segurança Pública - Maranhão </h5>
+        <p> &copy 2021 </p>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Boostrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

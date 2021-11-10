@@ -1,0 +1,142 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conteúdo sobre a Segurança Pública no estado do Maranhão (MA) - Brasil">
+    <meta name="keywords" content="Maranhão, site, segurança pública">
+    <meta name="robots" content="index, follow">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,500&family=Nunito:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="{% static 'img/logo.png' %}" type="image/x-icon">
+
+    <title> SEGURANÇA PÚBLICA - MARANHÃO </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, #b06ab3, #4568dc);">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> 
+                <img src="{% static 'img/logo.png' %}" alt="" width="64" height="60">   
+                Segurança Pública - Maranhão </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"> INÍCIO </a>
+                  </li>         
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Órgãos Responsáveis
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="penal.html"> POLÍCIA PENAL </a></li>
+                      <li><a class="dropdown-item" href="guarda.html"> GUARDA MUNICIPAL </a></li>
+                      <li><a class="dropdown-item" href="bombeiros.html"> CORPO DE BOMBEIROS </a></li>
+                      <li><a class="dropdown-item" href="militar.html"> POLÍCIA MILITAR </a></li>
+                      <li><a class="dropdown-item" href="civil.html"> POLÍCIA CIVIL  </a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobre.html"> Quem Somos?</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 my-3">
+            <h2 id="topo" class="text-center"> GUARDA MUNICIPAL DO MARANHÃO </h2>
+            <p style="color: purple" class="text-center"> Você sabe como este órgão atua?</p>
+
+            <p> Guarda Municipal </p>
+            
+            <p>
+              É uma corporação uniformizada e armada, subordinada à Secretaria Municipal de Segurança com Cidadania, regida sob a égide da hierarquia e disciplina, que tem por finalidade:
+
+              I - atuar como órgão operacional da segurança pública municipal em atividades de prevenção do crime, criminalidade e desordem pública; 
+              II - apoiar a fiscalização do cumprimento às posturas municipais;
+              III - realizar atividades de prevenção e salvamento nas praias, rios, lagoas, lagos e outras localidades do Município;
+              IV - apoiar ações de Defesa Civil;
+              V - organizar e manter a Banda de Música Oficial do Município;
+              VI - realizar a proteção de bens, serviços e instalações municipais; 
+              VII - e outras atividades correlatas.</p>
+            
+            <p> Segundo a Lei 13.022, que dispõe sobre o sobre o Estatuto Geral das Guardas Municipais, a prefeitura pode criar, por lei, sua guarda municipal. Além disso, os princípios mínimos de atuação das guardas municipais são cinco. Então esses preceitos básicos são os seguintes: 
+              proteção dos direitos humanos fundamentais, do exercício da cidadania e das liberdades públicas; 
+              preservação da vida, redução do sofrimento e diminuição das perdas; 
+              patrulhamento preventivo; 
+              compromisso com a evolução social da comunidade; e 
+              uso progressivo da força.</p>
+            
+              <img src="{% static 'img/guardamunicipal.jpg' %}" alt="ilustração sobre segurança pública" id="img">
+
+            <p> Suas competências:</p>
+            <p>Zelar pelos bens públicos, equipamentos e prédios do executivo;
+            Prevenir e impedir, pela presença e vigilância, bem como coibir, infrações penais ou administrativas e atos infracionais que atentem contra os bens, serviços e instalações do município;</p>
+            <p>Atuar, de forma preventiva e permanente, no território municipal, para a proteção    sistêmica da população que utiliza os bens, serviços e instalações da prefeitura;
+            Colaborar em ações conjuntas com os órgãos de segurança pública que contribuam com a paz social;
+            Colaborar com o restabelecimento da paz em conflitos que seus integrantes presenciarem, atentando para o respeito aos direitos fundamentais das pessoas;
+            Exercer as competências de trânsito que lhes forem concedidas, nas vias e logradouros municipais, nos termos da Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), ou de forma concorrente, mediante convênio celebrado com órgão de trânsito estadual ou municipal;
+            Atuar na proteção ao patrimônio ecológico, histórico, cultural, arquitetônico e ambiental do Município, inclusive adotando medidas educativas e preventivas;
+            Cooperar com órgãos de defesa civil em suas atividades;</p>
+            <p> Interagir com a sociedade civil para discussão de soluções de problemas e projetos     locais voltados à melhoria da segurança das comunidades;
+            Estabelecer parcerias para desenvolvimento de ações preventivas integradas, com os órgãos estaduais e da União, ou de Municípios vizinhos, por meio da celebração de convênios ou consórcios;
+            Articular-se com os órgãos municipais de políticas sociais, mirando na adoção de ações interdisciplinares de segurança no Município;
+            Integrar-se com os demais órgãos de poder de polícia administrativa, visando a contribuir para a normatização e a fiscalização das posturas e ordenamento urbano municipal.</p>
+
+            <hr>
+            <p>Conheça a polícia civil:
+              <a href="civil.html">Clique aqui!</a></p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Libras -->
+     <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <footer>
+      <div class="rodape my-3">
+        <h5> Segurança Pública - Maranhão </h5>
+        <p> &copy 2021 </p>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Boostrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
