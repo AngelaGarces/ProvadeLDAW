@@ -13,7 +13,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool, defaut=False)
 
-ALLOWED_HOSTS = ['localhost', '*']
+ALLOWED_HOSTS = ['seguranca-publica.herokuapp.com','localhost', '*']
 
 # Application definition
 
